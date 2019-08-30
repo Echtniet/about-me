@@ -9,3 +9,7 @@
 ## About
 
 This repo is a webpage that will have some general information about me, for my web apps class.
+
+## Recommended Tools
+
+* Markdown - [Guides](https://guides.github.com/features/mastering-markdown/)
