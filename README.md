@@ -21,3 +21,9 @@ This repo is a webpage that will have some general information about me, for my 
 1. [W3Schools](https://www.w3schools.com/)
 2. [Stack Overflow](https://stackoverflow.com/)
 3. [Google](https://www.google.com)
+
+## Contributors
+
+Clinton Davelaar, Computer Science
+
+![juvi](juvi.JPG)
