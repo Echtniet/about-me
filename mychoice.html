@@ -19,8 +19,8 @@
                     </div>
                     <ul class="nav navbar-nav">
                         <li><a href="index.html">Home</a></li>
-                        <li class="active"><a href="#">Contact</a></li>
-                        <li><a href="mychoice.html">My choice</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li class="active"><a href="#">My choice</a></li>
                     </ul>
                 </div>
             </nav>
@@ -30,26 +30,24 @@
                 <div class="col-sm-6 col-sm-offset-3">
                     <form>                        
                         <div class="row well">
-                            <div class="form-group">
-                                <div class="col-sm-6">
-                                   <label for="fname">First name</label> 
-                                   <input type="text" name="fname" id="fname" class="form-control input-sm" placeholder="Please enter first name">
-                                </div>
-                                <div class="col-sm-6">
-                                   <label for="lname">Last name</label> 
-                                   <input type="text" name="lname" id="lname" class="form-control input-sm" placeholder="Please enter last name">
-                                </div>
-                                <div class="col-sm-9">
-                                   <label for="email">Email</label> 
-                                   <input type="email" name="email" id="email" class="form-control input-sm" placeholder="Please enter email">
-                                </div>
-                                <div class="col-sm-3">
-                                   <label for="phone">Phone</label> 
-                                   <input type="number" name="phone" id="phone" class="form-control input-sm" placeholder="Please enter phone">
-                                </div>
-                                <div class="col-sm-12">
+                            <div class="form-group form-inline">
+                                <div class="col-sm-12 text-center">
+                                    <h4>The summation of x from i to n</h4>
                                     <br>
-                                    <button type="submit" class="btn btn-success center-block">Submit</button>
+                                </div>
+                                <div class="col-sm-6">
+                                   <label for="i">for (int i =</label> 
+                                   <input type="number" name="i" id="i" class="form-control input-sm" placeholder="Ente i">
+                                </div>
+                                <div class="col-sm-6">
+                                   <label for="to">; i < </label> 
+                                   <input type="number" name="to" id="to" class="form-control input-sm" placeholder="Ente i">
+                                   <label>; i++)</label>
+                                </div>
+                                <div class="col-sm-12 text-center">
+                                    <br>
+                                    <label for="equals">=</label>
+                                    <input type="number" name="equals" id="equals" class="form-control input-sm" disabled>
                                 </div>
                             </div>
                         </div>
@@ -57,7 +55,7 @@
                 </div>
             </div>
         </main>
-        
+        <script src="js/myfunctions.js"></script>
 
     </body>
 </html>
